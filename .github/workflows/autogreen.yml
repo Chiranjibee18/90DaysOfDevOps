@@ -2,6 +2,8 @@ name: Auto Green
 
 on:
   schedule:
+    - cron: "30 4 * * *"
+    - cron: "30 9 * * *"
     - cron: "30 14 * * *"
 
   workflow_dispatch:
